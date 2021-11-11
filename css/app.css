@@ -503,10 +503,6 @@ ul.header-link-item-subs {
           flex-direction: column;
 }
 
-.swiper {
-  padding-top: 100px;
-}
-
 .swiper-button-prev {
   left: 30px !important;
   width: 55px !important;
@@ -555,6 +551,7 @@ ul.header-link-item-subs {
 }
 
 .swiper-slide-text-top {
+  padding-top: 70px;
   font-size: 50px;
   line-height: 50px;
   padding-bottom: 5px;
