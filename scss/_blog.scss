@@ -1,0 +1,120 @@
+.blog {
+    overflow: hidden;
+    &-items {
+        padding: 20px 0 100px;
+        margin: 0 -8px;
+    }
+    &-item {
+        background-color: #fff;
+        border-radius: 5px;
+        margin: 0 10px 20px;
+        box-shadow: 5px 5px 5px 5px rgba(110, 108, 108, 0.068);
+        overflow: hidden;
+        
+        &-image {
+            &-wrapper {
+                overflow: hidden;
+                &:hover img {
+                    transform: scale(1.1);
+                }
+            }
+            transform: scale(1);
+            transition: all 0.5s linear;
+        }
+        &-actions {
+            background-color: #3fd0d4;
+            padding: 12px 25px;
+            color: #fff;
+            font-size: 14px;
+            &-calender {
+                padding-right: 20px;
+                &-icon {
+                    padding-right: 5px;
+                }
+            }
+            &-user {
+                padding-right: 20px;
+                &-icon {
+                    padding-right: 5px;
+                }
+            }
+            &-location {
+                &-icon {
+                    padding-right: 5px;
+                }
+                &-text {
+                    color: #fff;
+                    position: relative;
+                    &::after {
+                        position: absolute;
+                        content: "";
+                        left: 0;
+                        bottom: -3px;
+                        width: 0;
+                        height: 2px;
+                        background-color: #fff;
+                        transition: all 0.5s ease;
+                    }
+                    &:hover {
+                        &:after {
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+
+        }
+        &-contents {
+            padding: 32px 28px;
+            &-title {
+                padding-bottom: 15px;
+            }
+            &-content {
+                display: -webkit-box;
+                -webkit-line-clamp: 2;
+                -webkit-box-orient: vertical;
+                text-overflow: ellipsis;
+                overflow: hidden;
+                color: $text-color;
+            }
+            &-info {
+                padding-top: 15px;
+                font-weight: 600;
+                &-price {
+                    padding-right: 10px;
+                }
+            }
+        }
+    }
+}
+
+// Slick
+.blog button.slick-prev.slick-arrow,
+.blog button.slick-next.slick-arrow
+ {
+    display: none !important;
+}
+
+.blog .slick-dots {
+    padding-top: 30px;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0 15px;
+    button {
+        font-size: 0;
+        border: 0;
+        width: 12px;
+        height: 12px;
+        border-radius: 100rem;
+        transition: all 0.2s linear;
+        background-color: #3fd0d4;
+        opacity: 0.5;
+    }
+    .slick-active button{
+        background-color: #3fd0d4;
+        opacity: 1;
+    }
+
+}

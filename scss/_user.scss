@@ -1,0 +1,74 @@
+.user {
+    padding-top: 150px;
+    &-image {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        position: relative;
+        overflow: hidden;
+        &-item {
+            &:hover .user-image-contents {
+                bottom: 0;
+            }
+        }
+        &-contents {
+            padding: 10px;
+            color: #fff;
+            text-align: center;
+            max-width: 337px;
+            position: absolute;
+            content: "";
+            bottom: -100%;
+            transition: all 0.7s linear;
+            background-color: $primary-color;
+            &-title {
+                font-size: 18px;
+                line-height: 1.333333333333333em;
+                font-weight: 600;
+                padding: 10px 0 10px;
+            }
+            &-desc {
+                font-size: 15px;
+                line-height: 1.714285714285714em;
+                font-weight: 400;
+                padding-bottom: 15px;
+            }
+            &-socials i{
+                font-size: 18px;
+                padding: 0 15px;
+            }
+        }
+    }
+}
+
+.numbers {
+    &-item-title {
+        padding-top: 10px;
+        line-height: 18px;
+        font-size: 18px;
+        line-height: 1.333333333333333em;
+        font-weight: 600;
+    }
+    &-wrapper {
+        color: #fff;
+        text-align: center;
+        background-color: #3abdc1;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        padding: 78px 200px;
+    }
+}
+
+.fig-number {
+    font-size: 65px;
+    line-height: 65px;
+    font-size: 600;
+}
+    
+
+// Slick
+.user button.slick-prev.slick-arrow,
+.user button.slick-next.slick-arrow
+ {
+    display: none !important;
+}
+

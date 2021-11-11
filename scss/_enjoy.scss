@@ -1,0 +1,52 @@
+.enjoy {
+    &-title {
+        font-size: 33px;
+        line-height: 33px;
+        padding-bottom: 5px;
+        font-family: 'Satisfy', cursive;
+        color: $primary-color;
+        font-weight: 400;
+        padding-top: 150px;
+    }
+
+    &-content {
+        font-size: 65px;
+        line-height: 65px;
+        padding-bottom: 20px;
+    }
+
+    &-desc {
+        color: $text-color;
+        text-align: center;
+        font-size: 17px;
+        line-height: 28px;
+        padding: 0 280px 70px;
+    }
+    &-items {
+        padding: 0 68px;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 100px;
+    }
+    &-item {
+        &-image {
+            display: unset;
+            transition: all 0.5s ease;
+            &:hover {
+                transform: translateY(-10px);
+            }
+        }
+        &-title {
+            font-size: 18px;
+            line-height: 1.333333333333333em;
+            font-weight: 600;
+            padding-bottom: 15px;
+        }
+        &-desc {
+            font-size: 14px;
+            line-height: 1.714285714285714em;
+            font-weight: 400;
+            color: #505050;
+        }
+    }
+}

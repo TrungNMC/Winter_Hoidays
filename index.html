@@ -1,0 +1,998 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Winter Holidays – SetSail</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/cropped-favicon-1-32x32.png" sizes="32x32">
+    <link rel="stylesheet" href="./css/app.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link
+    rel="stylesheet"
+    type="text/css"
+    href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <!-- Demo styles -->
+    <style>
+        html,
+        body {
+          position: relative;
+          height: 100%;
+        }
+  
+        body {
+          background: #eee;
+          font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+          font-size: 14px;
+          color: #000;
+          margin: 0;
+          padding: 0;
+        }
+  
+        .swiper {
+          width: 100%;
+          height: 100%;
+        }
+  
+        .swiper-slide {
+          text-align: center;
+          font-size: 18px;
+          background: #fff;
+  
+          /* Center slide text vertically */
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: -webkit-flex;
+          display: flex;
+          -webkit-box-pack: center;
+          -ms-flex-pack: center;
+          -webkit-justify-content: center;
+          justify-content: center;
+          -webkit-box-align: center;
+          -ms-flex-align: center;
+          -webkit-align-items: center;
+          align-items: center;
+        }
+  
+        .swiper-slide img {
+          display: block;
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+      </style>
+</head>
+<body>
+
+    <header class="header">
+        <div class="header-logo">
+            <img src="./image/logo.png" alt="" class="header-logo-desktop">
+            <img src="./image/logo-mobile-img.png" alt="" class="header-logo-mobile">
+        </div>
+        
+        <div class="header-links">
+            <ul class="header-link">
+                <li class="header-link-item">
+                    <input type="checkbox" name="" class="hiddenClick" id="sub1">
+                    <label for="sub1" class="label-menu" onClick="abc('#sub1')">Home <i class="fas fa-chevron-down"></i></label>
+                    <a href="" class="menu-desktop">Home</a>
+                    <ul class="header-link-item-subs sub1">
+                        <li class="header-link-item-sub">
+                            <a href="" class="menu-subs">About Us</a>
+                        </li>
+                        <li class="header-link-item-sub">
+                            <a href="" class="menu-subs">What We Offer</a>
+                        </li>
+                        <li class="header-link-item-sub">
+                            <a href="" class="menu-subs">Our Team</a>
+                        </li>
+                        <li class="header-link-item-sub">
+                            <a href="" class="menu-subs">Get In Touch</a>
+                        </li>
+                        <li class="header-link-item-sub">
+                            <a href="" class="menu-subs">Contact Us</a>
+                        </li>
+                        <li class="header-link-item-sub">
+                            <a href="" class="menu-subs">FAQ Page</a>
+                        </li>
+                        <li class="header-link-item-sub">
+                            <a href="" class="menu-subs">Coming Soon</a>
+                        </li>
+                        <li class="header-link-item-sub">
+                            <a href="" class="menu-subs">Error Page</a> 
+                        </li>
+                    </ul>
+                </li>
+                <li class="header-link-item">
+                    <input type="checkbox" name="" class="hiddenClick" id="sub2">
+                    <label for="sub2" class="label-menu" onClick="abc('#sub2')">Pages <i class="fas fa-chevron-down"></i></label>
+                    <a href="" class="menu-desktop">Pages</a>
+                    <ul class="header-link-item-subs sub2">
+                        <li class="header-link-item-sub">
+                            <a href="" class="menu-subs">About Us</a>
+                        </li>
+                        <li class="header-link-item-sub">
+                            <a href="" class="menu-subs">What We Offer</a>
+                        </li>
+                        <li class="header-link-item-sub">
+                            <a href="" class="menu-subs">Our Team</a>
+                        </li>
+                        <li class="header-link-item-sub">
+                            <a href="" class="menu-subs">Get In Touch</a>
+                        </li>
+                        <li class="header-link-item-sub">
+                            <a href="" class="menu-subs">Contact Us</a>
+                        </li>
+                        <li class="header-link-item-sub">
+                            <a href="" class="menu-subs">FAQ Page</a>
+                        </li>
+                        <li class="header-link-item-sub">
+                            <a href="" class="menu-subs">Coming Soon</a>
+                        </li>
+                        <li class="header-link-item-sub">
+                            <a href="" class="menu-subs">Error Page</a> 
+                        </li>
+                    </ul>
+                </li>
+                <li class="header-link-item">
+                    <input type="checkbox" name="" class="hiddenClick" id="sub3">
+                    <label for="sub3" class="label-menu" onClick="abc('#sub3')">Destinations <i class="fas fa-chevron-down"></i></label>
+                    <a href="" class="menu-desktop">Destinations</a>
+                    <ul class="header-link-item-subs sub3">
+                        <li class="header-link-item-sub">
+                            <a href="" class="menu-subs">About Us</a>
+                        </li>
+                        <li class="header-link-item-sub">
+                            <a href="" class="menu-subs">What We Offer</a>
+                        </li>
+                        <li class="header-link-item-sub">
+                            <a href="" class="menu-subs">Our Team</a>
+                        </li>
+                        <li class="header-link-item-sub">
+                            <a href="" class="menu-subs">Get In Touch</a>
+                        </li>
+                        <li class="header-link-item-sub">
+                            <a href="" class="menu-subs">Contact Us</a>
+                        </li>
+                        <li class="header-link-item-sub">
+                            <a href="" class="menu-subs">FAQ Page</a>
+                        </li>
+                        <li class="header-link-item-sub">
+                            <a href="" class="menu-subs">Coming Soon</a>
+                        </li>
+                        <li class="header-link-item-sub">
+                            <a href="" class="menu-subs">Error Page</a> 
+                        </li>
+                    </ul>
+                </li>
+                <li class="header-link-item">
+                    <input type="checkbox" name="" class="hiddenClick" id="sub4">
+                    <label for="sub4" class="label-menu" onClick="abc('#sub4')">Tours <i class="fas fa-chevron-down"></i></label>
+                    <a href="" class="menu-desktop" >Tours</a>
+                    <ul class="header-link-item-subs sub4">
+                        <li class="header-link-item-sub">
+                            <a href="" class="menu-subs">About Us</a>
+                        </li>
+                        <li class="header-link-item-sub">
+                            <a href="">What We Offer</a>
+                        </li>
+                        <li class="header-link-item-sub">
+                            <a href="" class="menu-subs">Our Team</a>
+                        </li>
+                        <li class="header-link-item-sub">
+                            <a href="" class="menu-subs">Get In Touch</a>
+                        </li>
+                        <li class="header-link-item-sub">
+                            <a href="" class="menu-subs">Contact Us</a>
+                        </li>
+                        <li class="header-link-item-sub">
+                            <a href="" class="menu-subs">FAQ Page</a>
+                        </li>
+                        <li class="header-link-item-sub">
+                            <a href="" class="menu-subs">Coming Soon</a>
+                        </li>
+                        <li class="header-link-item-sub">
+                            <a href="" class="menu-subs">Error Page</a> 
+                        </li>
+                    </ul>
+                </li>
+                <li class="header-link-item">
+                    <input type="checkbox" name="" class="hiddenClick" id="sub5">
+                    <label for="sub5" class="label-menu" onClick="abc('#sub5')">Blog <i class="fas fa-chevron-down"></i></label>
+                    <a href="" class="menu-desktop">Blog</a>
+                    <ul class="header-link-item-subs sub5">
+                        <li class="header-link-item-sub">
+                            <a href="" class="menu-subs">About Us</a>
+                        </li>
+                        <li class="header-link-item-sub">
+                            <a href="" class="menu-subs">What We Offer</a>
+                        </li>
+                        <li class="header-link-item-sub">
+                            <a href="" class="menu-subs">Our Team</a>
+                        </li>
+                        <li class="header-link-item-sub">
+                            <a href="" class="menu-subs">Get In Touch</a>
+                        </li>
+                        <li class="header-link-item-sub">
+                            <a href="" class="menu-subs">Contact Us</a>
+                        </li>
+                        <li class="header-link-item-sub">
+                            <a href="" class="menu-subs">FAQ Page</a>
+                        </li>
+                        <li class="header-link-item-sub">
+                            <a href="" class="menu-subs">Coming Soon</a>
+                        </li>
+                        <li class="header-link-item-sub">
+                            <a href="" class="menu-subs">Error Page</a> 
+                        </li>
+                    </ul>
+                </li>
+                <li class="header-link-item">
+                    <input type="checkbox" name="" class="hiddenClick" id="sub6">
+                    <label for="sub6" class="label-menu" onClick="abc('#sub6')">Shop <i class="fas fa-chevron-down"></i></label>
+                    <a href="" class="menu-desktop">Shop</a>
+                    <ul class="header-link-item-subs sub6">
+                        <li class="header-link-item-sub">
+                            <a href="" class="menu-subs">About Us</a>
+                        </li>
+                        <li class="header-link-item-sub">
+                            <a href="" class="menu-subs">What We Offer</a>
+                        </li>
+                        <li class="header-link-item-sub">
+                            <a href="">Our Team</a>
+                        </li>
+                        <li class="header-link-item-sub">
+                            <a href="" class="menu-subs">Get In Touch</a>
+                        </li>
+                        <li class="header-link-item-sub">
+                            <a href="" class="menu-subs">Contact Us</a>
+                        </li>
+                        <li class="header-link-item-sub">
+                            <a href="" class="menu-subs">FAQ Page</a>
+                        </li>
+                        <li class="header-link-item-sub">
+                            <a href="" class="menu-subs">Coming Soon</a>
+                        </li>
+                        <li class="header-link-item-sub">
+                            <a href="" class="menu-subs">Error Page</a> 
+                        </li>
+                    </ul>
+                </li>
+                <li class="header-link-item">
+                    <input type="checkbox" name="" class="hiddenClick" id="sub7">
+                    <label for="sub7" class="label-menu" onClick="abc('#sub7')">Elements <i class="fas fa-chevron-down"></i></label>
+                    <a href="" class="menu-desktop">Elements</a>
+                    <ul class="header-link-item-subs sub7">
+                        <li class="header-link-item-sub">
+                            <a href="" class="menu-subs">About Us</a>
+                        </li>
+                        <li class="header-link-item-sub">
+                            <a href="" class="menu-subs">What We Offer</a>
+                        </li>
+                        <li class="header-link-item-sub">
+                            <a href="" class="menu-subs">Our Team</a>
+                        </li>
+                        <li class="header-link-item-sub">
+                            <a href="" class="menu-subs">Get In Touch</a>
+                        </li>
+                        <li class="header-link-item-sub">
+                            <a href="" class="menu-subs">Contact Us</a>
+                        </li>
+                        <li class="header-link-item-sub">
+                            <a href="" class="menu-subs">FAQ Page</a>
+                        </li>
+                        <li class="header-link-item-sub">
+                            <a href="" class="menu-subs">Coming Soon</a>
+                        </li>
+                        <li class="header-link-item-sub">
+                            <a href="" class="menu-subs">Error Page</a> 
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="btn-mobile-togle">
+            <i class="fas fa-bars"></i>
+        </div>
+        <div class="header-action">
+            <span class="header-action-cart">
+                <i class="fas fa-shopping-cart"></i>
+                <p>No product in the cart .</p>
+            </span>
+            <span class="header-action-search">
+                <i class="fas fa-search btn-search-overlay"></i>
+            </span>
+            <div class="header-action-search-overlay-show">
+                <i class="fas fa-times btn-close-search"></i>
+                <div class="header-action-search-overlay-show-flex">
+                    <input type="text" placeholder="Search ...">
+                    <button class="btn-search">FIND MORE</button>
+                </div>
+            </div>
+            <span class="header-action-bar">
+                <i class="fas fa-bars btn-bar"></i>
+                <div class="header-action-bar-show">
+                    <i class="fas fa-times btn-close"></i>
+                    <img src="./image/logo.png" alt="" class="header-action-bar-show-img1">
+                    <img src="./image/sidearea-img-2.png" alt="" class="header-action-bar-show-img2">
+                    <img src="./image/sidearea-img.jpg" alt="" class="header-action-bar-show-img3">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum iure officia exercitationem, nulla, consectetur minus quam minima cumque ducimus repudiandae illum accusantium magnam eius, perferendis beatae vero cupiditate obcaecati dicta laboriosam. Placeat facere inventore excepturi, dolorem quod recusandae maxime quasi, accusamus vitae cupiditate, fuga tempore quos a veritatis sunt magni?</p>
+                    <h5>Find Your Destination</h5>
+                    <div class="header-action-bar-show-search">
+                        <input type="text" placeholder="Search">
+                        <button class="btn-search">
+                            <i class="fas fa-search"></i>
+                        </button>
+                    </div>
+                    <h5>Follow Me</h5>
+                    <div class="header-action-bar-show-socials">
+                        <i class="fab fa-twitter btn-socials"></i>
+                        <i class="fab fa-pinterest-p btn-socials"></i>
+                        <i class="fab fa-facebook-f btn-socials"></i>
+                        <i class="fab fa-instagram btn-socials"></i>
+                    </div>
+                </div>
+            </span>
+        </div>
+    </header>
+    <main>
+        <!-- Swiper -->
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="swiper-slide-content">
+                    <img src="./image//skiing-slider-img-1.jpg" class="swiper-slide-image" alt="">
+                    <div class="swiper-slide-texts">
+                        <h2 class="swiper-slide-text-top" data-aos="fade-up" data-aos-duration="1000">
+                            From Alps
+                        </h2>
+                        <h1 class="swiper-slide-text-main" data-aos="fade-up" data-aos-duration="1000">
+                            Snow Adventure
+                        </h1>
+                        <p class="swiper-slide-text-bottom" data-aos="fade-up" data-aos-duration="1000">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati velit deleniti ex aliquid! Nobis sit laborum ratione.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <img src="./image//skiing-slider-img-2.jpg" class="swiper-slide-image" alt="">
+                <div class="swiper-slide-texts">
+                    <h2 class="swiper-slide-text-top" data-aos="fade-up" data-aos-duration="1000">
+                        Enjoy Your
+                    </h2>
+                    <h1 class="swiper-slide-text-main" data-aos="fade-up" data-aos-duration="1000">
+                        Winter Vacations
+                    </h1>
+                    <p class="swiper-slide-text-bottom" data-aos="fade-up" data-aos-duration="1000">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati velit deleniti ex aliquid! Nobis sit laborum ratione.
+                    </p>
+                </div>
+            </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+
+        <div class="blog">
+            <div class="blog-items">
+                <div class="blog-item">
+                    <div class="blog-item-image-wrapper">
+                        <img src="./image/tour-featured-img-14.jpg" alt="" class="blog-item-image">
+                    </div>
+                    <div class="blog-item-actions">
+                        <span class="blog-item-actions-calender">
+                            <i class="far fa-calendar blog-item-actions-calender-icon"></i>
+                            <span class="blog-item-actions-calender-text">1</span>
+                        </span>
+                        <span class="blog-item-actions-user">
+                            <i class="far fa-user blog-item-actions-user-icon"></i>
+                            <span class="blog-item-actions-user-text">13+</span>
+                        </span>
+                        <span class="blog-item-actions-location">
+                            <i class="fas fa-map-marker-alt blog-item-actions-location-icon"></i>
+                            <a href="#" class="blog-item-actions-location-text">Skiing</a>
+                        </span>
+                    </div>
+                    <div class="blog-item-contents">
+                        <h2 class="blog-item-contents-title">Action Winter</h2>
+                        <p class="blog-item-contents-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus fugit cupiditate tempora aliquid. Repellendus exercitationem modi molestiae cumque culpa impedit assumenda itaque! Vitae labore eos ea. Fugit, voluptas quasi! Quae?</p>
+                        <div class="blog-item-contents-info">
+                            <span class="blog-item-contents-info-price">$1000</span>
+                            <span class="blog-item-contents-info-rate"><i class="fas fa-star" class="blog-item-contents-info-rate-star" style="padding-right: 5px"></i><span style="padding-right: 10px">6.7</span><span style="padding-right: 10px">Good</span></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="blog-item">
+                    <div class="blog-item-image-wrapper">
+                        <img src="./image/tour-featured-img-15.jpg" alt="" class="blog-item-image">
+                    </div>
+                    <div class="blog-item-actions">
+                        <span class="blog-item-actions-calender">
+                            <i class="far fa-calendar blog-item-actions-calender-icon"></i>
+                            <span class="blog-item-actions-calender-text">1</span>
+                        </span>
+                        <span class="blog-item-actions-user">
+                            <i class="far fa-user blog-item-actions-user-icon"></i>
+                            <span class="blog-item-actions-user-text">13+</span>
+                        </span>
+                        <span class="blog-item-actions-location">
+                            <i class="fas fa-map-marker-alt blog-item-actions-location-icon"></i>
+                            <a href="#" class="blog-item-actions-location-text">Skiing</a>
+                        </span>
+                    </div>
+                    <div class="blog-item-contents">
+                        <h2 class="blog-item-contents-title">Action Winter</h2>
+                        <p class="blog-item-contents-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus fugit cupiditate tempora aliquid. Repellendus exercitationem modi molestiae cumque culpa impedit assumenda itaque! Vitae labore eos ea. Fugit, voluptas quasi! Quae?</p>
+                        <div class="blog-item-contents-info">
+                            <span class="blog-item-contents-info-price">$1000</span>
+                            <span class="blog-item-contents-info-rate"><i class="fas fa-star" class="blog-item-contents-info-rate-star" style="padding-right: 5px"></i><span style="padding-right: 10px">6.7</span><span style="padding-right: 10px">Good</span></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="blog-item">
+                    <div class="blog-item-image-wrapper">
+                        <img src="./image/tour-featured-img-16.jpg" alt="" class="blog-item-image">
+                    </div>
+                    <div class="blog-item-actions">
+                        <span class="blog-item-actions-calender">
+                            <i class="far fa-calendar blog-item-actions-calender-icon"></i>
+                            <span class="blog-item-actions-calender-text">1</span>
+                        </span>
+                        <span class="blog-item-actions-user">
+                            <i class="far fa-user blog-item-actions-user-icon"></i>
+                            <span class="blog-item-actions-user-text">13+</span>
+                        </span>
+                        <span class="blog-item-actions-location">
+                            <i class="fas fa-map-marker-alt blog-item-actions-location-icon"></i>
+                            <a href="#" class="blog-item-actions-location-text">Skiing</a>
+                        </span>
+                    </div>
+                    <div class="blog-item-contents">
+                        <h2 class="blog-item-contents-title">Action Winter</h2>
+                        <p class="blog-item-contents-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus fugit cupiditate tempora aliquid. Repellendus exercitationem modi molestiae cumque culpa impedit assumenda itaque! Vitae labore eos ea. Fugit, voluptas quasi! Quae?</p>
+                        <div class="blog-item-contents-info">
+                            <span class="blog-item-contents-info-price">$1000</span>
+                            <span class="blog-item-contents-info-rate"><i class="fas fa-star" class="blog-item-contents-info-rate-star" style="padding-right: 5px"></i><span style="padding-right: 10px">6.7</span><span style="padding-right: 10px">Good</span></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="blog-item">
+                    <div class="blog-item-image-wrapper">
+                        <img src="./image/tour-featured-img-18.jpg" alt="" class="blog-item-image">
+                    </div>
+                    <div class="blog-item-actions">
+                        <span class="blog-item-actions-calender">
+                            <i class="far fa-calendar blog-item-actions-calender-icon"></i>
+                            <span class="blog-item-actions-calender-text">1</span>
+                        </span>
+                        <span class="blog-item-actions-user">
+                            <i class="far fa-user blog-item-actions-user-icon"></i>
+                            <span class="blog-item-actions-user-text">13+</span>
+                        </span>
+                        <span class="blog-item-actions-location">
+                            <i class="fas fa-map-marker-alt blog-item-actions-location-icon"></i>
+                            <a href="#" class="blog-item-actions-location-text">Skiing</a>
+                        </span>
+                    </div>
+                    <div class="blog-item-contents">
+                        <h2 class="blog-item-contents-title">Action Winter</h2>
+                        <p class="blog-item-contents-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus fugit cupiditate tempora aliquid. Repellendus exercitationem modi molestiae cumque culpa impedit assumenda itaque! Vitae labore eos ea. Fugit, voluptas quasi! Quae?</p>
+                        <div class="blog-item-contents-info">
+                            <span class="blog-item-contents-info-price">$1000</span>
+                            <span class="blog-item-contents-info-rate"><i class="fas fa-star" class="blog-item-contents-info-rate-star" style="padding-right: 5px"></i><span style="padding-right: 10px">6.7</span><span style="padding-right: 10px">Good</span></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="blog-item">
+                    <div class="blog-item-image-wrapper">
+                        <img src="./image/tour-featured-img-19.jpg" alt="" class="blog-item-image">
+                    </div>
+                    <div class="blog-item-actions">
+                        <span class="blog-item-actions-calender">
+                            <i class="far fa-calendar blog-item-actions-calender-icon"></i>
+                            <span class="blog-item-actions-calender-text">1</span>
+                        </span>
+                        <span class="blog-item-actions-user">
+                            <i class="far fa-user blog-item-actions-user-icon"></i>
+                            <span class="blog-item-actions-user-text">13+</span>
+                        </span>
+                        <span class="blog-item-actions-location">
+                            <i class="fas fa-map-marker-alt blog-item-actions-location-icon"></i>
+                            <a href="#" class="blog-item-actions-location-text">Skiing</a>
+                        </span>
+                    </div>
+                    <div class="blog-item-contents">
+                        <h2 class="blog-item-contents-title">Action Winter</h2>
+                        <p class="blog-item-contents-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus fugit cupiditate tempora aliquid. Repellendus exercitationem modi molestiae cumque culpa impedit assumenda itaque! Vitae labore eos ea. Fugit, voluptas quasi! Quae?</p>
+                        <div class="blog-item-contents-info">
+                            <span class="blog-item-contents-info-price">$1000</span>
+                            <span class="blog-item-contents-info-rate"><i class="fas fa-star" class="blog-item-contents-info-rate-star" style="padding-right: 5px"></i><span style="padding-right: 10px">6.7</span><span style="padding-right: 10px">Good</span></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="blog-item">
+                    <div class="blog-item-image-wrapper">
+                        <img src="./image/tour-featured-img-16.jpg" alt="" class="blog-item-image">
+                    </div>
+                    <div class="blog-item-actions">
+                        <span class="blog-item-actions-calender">
+                            <i class="far fa-calendar blog-item-actions-calender-icon"></i>
+                            <span class="blog-item-actions-calender-text">1</span>
+                        </span>
+                        <span class="blog-item-actions-user">
+                            <i class="far fa-user blog-item-actions-user-icon"></i>
+                            <span class="blog-item-actions-user-text">13+</span>
+                        </span>
+                        <span class="blog-item-actions-location">
+                            <i class="fas fa-map-marker-alt blog-item-actions-location-icon"></i>
+                            <a href="#" class="blog-item-actions-location-text">Skiing</a>
+                        </span>
+                    </div>
+                    <div class="blog-item-contents">
+                        <h2 class="blog-item-contents-title">Action Winter</h2>
+                        <p class="blog-item-contents-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus fugit cupiditate tempora aliquid. Repellendus exercitationem modi molestiae cumque culpa impedit assumenda itaque! Vitae labore eos ea. Fugit, voluptas quasi! Quae?</p>
+                        <div class="blog-item-contents-info">
+                            <span class="blog-item-contents-info-price">$1000</span>
+                            <span class="blog-item-contents-info-rate"><i class="fas fa-star" class="blog-item-contents-info-rate-star" style="padding-right: 5px"></i><span style="padding-right: 10px">6.7</span><span style="padding-right: 10px">Good</span></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="blog-item">
+                    <div class="blog-item-image-wrapper">
+                        <img src="./image/tour-featured-img-18.jpg" alt="" class="blog-item-image">
+                    </div>
+                    <div class="blog-item-actions">
+                        <span class="blog-item-actions-calender">
+                            <i class="far fa-calendar blog-item-actions-calender-icon"></i>
+                            <span class="blog-item-actions-calender-text">1</span>
+                        </span>
+                        <span class="blog-item-actions-user">
+                            <i class="far fa-user blog-item-actions-user-icon"></i>
+                            <span class="blog-item-actions-user-text">13+</span>
+                        </span>
+                        <span class="blog-item-actions-location">
+                            <i class="fas fa-map-marker-alt blog-item-actions-location-icon"></i>
+                            <a href="#" class="blog-item-actions-location-text">Skiing</a>
+                        </span>
+                    </div>
+                    <div class="blog-item-contents">
+                        <h2 class="blog-item-contents-title">Action Winter</h2>
+                        <p class="blog-item-contents-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus fugit cupiditate tempora aliquid. Repellendus exercitationem modi molestiae cumque culpa impedit assumenda itaque! Vitae labore eos ea. Fugit, voluptas quasi! Quae?</p>
+                        <div class="blog-item-contents-info">
+                            <span class="blog-item-contents-info-price">$1000</span>
+                            <span class="blog-item-contents-info-rate"><i class="fas fa-star" class="blog-item-contents-info-rate-star" style="padding-right: 5px"></i><span style="padding-right: 10px">6.7</span><span style="padding-right: 10px">Good</span></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="blog-item">
+                    <div class="blog-item-image-wrapper">
+                        <img src="./image/tour-featured-img-19.jpg" alt="" class="blog-item-image">
+                    </div>
+                    <div class="blog-item-actions">
+                        <span class="blog-item-actions-calender">
+                            <i class="far fa-calendar blog-item-actions-calender-icon"></i>
+                            <span class="blog-item-actions-calender-text">1</span>
+                        </span>
+                        <span class="blog-item-actions-user">
+                            <i class="far fa-user blog-item-actions-user-icon"></i>
+                            <span class="blog-item-actions-user-text">13+</span>
+                        </span>
+                        <span class="blog-item-actions-location">
+                            <i class="fas fa-map-marker-alt blog-item-actions-location-icon"></i>
+                            <a href="#" class="blog-item-actions-location-text">Skiing</a>
+                        </span>
+                    </div>
+                    <div class="blog-item-contents">
+                        <h2 class="blog-item-contents-title">Action Winter</h2>
+                        <p class="blog-item-contents-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus fugit cupiditate tempora aliquid. Repellendus exercitationem modi molestiae cumque culpa impedit assumenda itaque! Vitae labore eos ea. Fugit, voluptas quasi! Quae?</p>
+                        <div class="blog-item-contents-info">
+                            <span class="blog-item-contents-info-price">$1000</span>
+                            <span class="blog-item-contents-info-rate"><i class="fas fa-star" class="blog-item-contents-info-rate-star" style="padding-right: 5px"></i><span style="padding-right: 10px">6.7</span><span style="padding-right: 10px">Good</span></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+
+       <div class="container">
+        <div class="trynow">
+            <h5 class="trynow-title">Try Now</h5>
+            <h1 class="trynow-content">Winter Sport</h1>
+            <iframe width="722" height="350" src="https://www.youtube.com/embed/CUIdMusnugs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <p class="trynow-desc">
+                Lorem ipsum dolor sit amet consectetur adipisicing ipsum dolor sit amet consectetur adipisicing elit elit ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit. Architecto earum rerum consectetur enim, vel labore dicta ex, illum deleniti impedit facilis.
+            </p>
+            <button class="btn-trynow">VIEW MORE</button>
+        </div>
+       </div>
+
+       <div class="review">
+           <h1 class="review-title">Top Reviews</h1>
+           <p class="review-content">Lorem ipsum dolor sit, amet consectetur adipisicing elit. In consectetur iusto, cum ipsa earum quasi nisi laudantium sequi est aliquid voluptates.</p>
+           <div class="review-list">
+                <div class="review-item">
+                    <div class="review-item-wrapper">
+                        <img src="./image/user-img-2.png"  class="review-item-image" alt="">
+                        <div class="review-item-contents">
+                            <h2 class="review-item-name">Holland Canals</h2>
+                            <div class="review-item-rate">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <p class="review-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <h6 class="review-item-auth">Ema Cooper</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="review-item">
+                    <div class="review-item-wrapper">
+                        <img src="./image/user-img-3.png"  class="review-item-image" alt="">
+                        <div class="review-item-contents">
+                            <h2 class="review-item-name">Holland Canals</h2>
+                            <div class="review-item-rate">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <p class="review-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <h6 class="review-item-auth">Ema Cooper</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="review-item">
+                    <div class="review-item-wrapper">
+                        <img src="./image/user-img-4.png"  class="review-item-image" alt="">
+                        <div class="review-item-contents">
+                            <h2 class="review-item-name">Holland Canals</h2>
+                            <div class="review-item-rate">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <p class="review-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <h6 class="review-item-auth">Ema Cooper</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="review-item">
+                    <div class="review-item-wrapper">
+                        <img src="./image/user-img-7.png"  class="review-item-image" alt="">
+                        <div class="review-item-contents">
+                            <h2 class="review-item-name">Holland Canals</h2>
+                            <div class="review-item-rate">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <p class="review-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <h6 class="review-item-auth">Ema Cooper</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="enjoy">
+                <h5 class="enjoy-title">Enjoy Your</h5>
+                <h1 class="enjoy-content">Winter Sport</h1>
+                <p class="enjoy-desc">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. In consectetur iusto, cum ipsa earum quasi nisi laudantium sequis.
+                </p>
+                <div class="enjoy-list">
+                    <div class="enjoy-items">
+                        <div class="enjoy-item">
+                            <img src="./image/h1-custom-icon-img-1.png" alt="" class="enjoy-item-image">
+                            <h5 class="enjoy-item-title">Restaurants</h5>
+                            <p class="enjoy-item-desc">Aenean commodo ligula eget dolor. Lorem ipsum</p>
+                        </div>
+                        <div class="enjoy-item">
+                            <img src="./image/h1-custom-icon-img-2.png" alt="" class="enjoy-item-image">
+                            <h5 class="enjoy-item-title">Sightseeing</h5>
+                            <p class="enjoy-item-desc">Aenean commodo ligula eget dolor. Lorem ipsum</p>
+                        </div>
+                        <div class="enjoy-item">
+                            <img src="./image/h1-custom-icon-img-3.png" alt="" class="enjoy-item-image">
+                            <h5 class="enjoy-item-title">Shops & Boutiques</h5>
+                            <p class="enjoy-item-desc">Aenean commodo ligula eget dolor. Lorem ipsum</p>
+                        </div>
+                        <div class="enjoy-item">
+                            <img src="./image/h1-custom-icon-img-4.png" alt="" class="enjoy-item-image">
+                            <h5 class="enjoy-item-title">Where to Stay</h5>
+                            <p class="enjoy-item-desc">Aenean commodo ligula eget dolor. Lorem ipsum</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="user">
+            <div class="user-image">
+                <div class="user-image-item">
+                    <img src="./image/our-team-img-6-1.jpg" alt="">
+                    <div class="user-image-contents">
+                        <h5 class="user-image-contents-title">Joe Avery</h5>
+                        <p class="user-image-contents-desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                        <div class="user-image-contents-socials">
+                            <i class="fab fa-twitter"></i>
+                            <i class="fab fa-pinterest-p"></i>
+                            <i class="fab fa-facebook-f"></i>
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="user-image-item">
+                    <img src="./image/our-team-img-7-1.jpg" alt="">
+                    <div class="user-image-contents">
+                        <h5 class="user-image-contents-title">Joe Avery</h5>
+                        <p class="user-image-contents-desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                        <div class="user-image-contents-socials">
+                            <i class="fab fa-twitter"></i>
+                            <i class="fab fa-pinterest-p"></i>
+                            <i class="fab fa-facebook-f"></i>
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="user-image-item">
+                    <img src="./image/our-team-img-8-1.jpg" alt="">
+                    <div class="user-image-contents">
+                        <h5 class="user-image-contents-title">Joe Avery</h5>
+                        <p class="user-image-contents-desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                        <div class="user-image-contents-socials">
+                            <i class="fab fa-twitter"></i>
+                            <i class="fab fa-pinterest-p"></i>
+                            <i class="fab fa-facebook-f"></i>
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="user-image-item">
+                    <img src="./image/our-team-img-9.jpg" alt="">
+                    <div class="user-image-contents">
+                        <h5 class="user-image-contents-title">Joe Avery</h5>
+                        <p class="user-image-contents-desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                        <div class="user-image-contents-socials">
+                            <i class="fab fa-twitter"></i>
+                            <i class="fab fa-pinterest-p"></i>
+                            <i class="fab fa-facebook-f"></i>
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="user-image-item">
+                    <img src="./image/our-team-img-6-1.jpg" alt="">
+                    <div class="user-image-contents">
+                        <h5 class="user-image-contents-title">Joe Avery</h5>
+                        <p class="user-image-contents-desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                        <div class="user-image-contents-socials">
+                            <i class="fab fa-twitter"></i>
+                            <i class="fab fa-pinterest-p"></i>
+                            <i class="fab fa-facebook-f"></i>
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="user-image-item">
+                    <img src="./image/our-team-img-7-1.jpg" alt="">
+                    <div class="user-image-contents">
+                        <h5 class="user-image-contents-title">Joe Avery</h5>
+                        <p class="user-image-contents-desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                        <div class="user-image-contents-socials">
+                            <i class="fab fa-twitter"></i>
+                            <i class="fab fa-pinterest-p"></i>
+                            <i class="fab fa-facebook-f"></i>
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="user-image-item">
+                    <img src="./image/our-team-img-8-1.jpg" alt="">
+                    <div class="user-image-contents">
+                        <h5 class="user-image-contents-title">Joe Avery</h5>
+                        <p class="user-image-contents-desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                        <div class="user-image-contents-socials">
+                            <i class="fab fa-twitter"></i>
+                            <i class="fab fa-pinterest-p"></i>
+                            <i class="fab fa-facebook-f"></i>
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="user-image-item">
+                    <img src="./image/our-team-img-9.jpg" alt="">
+                    <div class="user-image-contents">
+                        <h5 class="user-image-contents-title">Joe Avery</h5>
+                        <p class="user-image-contents-desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                        <div class="user-image-contents-socials">
+                            <i class="fab fa-twitter"></i>
+                            <i class="fab fa-pinterest-p"></i>
+                            <i class="fab fa-facebook-f"></i>
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="numbers">
+                <div class="numbers-wrapper">
+                    <div class="numbers-item">
+                        <h1 class="fig-number">452</h1>
+                        <h2 class="numbers-item-title">Tourists</h2>
+                    </div>
+                    <div class="numbers-item">
+                        <h1 class="fig-number">120</span>
+                        <h2 class="numbers-item-title">Years</h2>
+                    </div>
+                    <div class="numbers-item">
+                        <h1 class="fig-number">283</h1>
+                        <h2 class="numbers-item-title">Cottages</h2>
+                    </div>
+                    <div class="numbers-item">
+                        <h1 class="fig-number">197</h1>
+                        <h2 class="numbers-item-title">Restaurants</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="chose">
+                <h5 class="chose-title">Choose Your</h5>
+                <h1 class="chose-content">Winter Sport</h1>
+                <p class="chose-desc">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. In consectetur iusto, cum ipsa earum quasi nisi laudantium sequis.
+                </p>
+                <div class="chose-items">
+                    <div class="chose-item">
+                        <div class="chose-item-list">
+                            <img src="https://setsail.qodeinteractive.com/wp-content/uploads/2018/10/destinations-featured-img-8-1.jpg" width="313" height="313" alt="">
+                            <h3>Slovernia</h3>
+                            <div class="chose-item-list-overlay"></div>
+                        </div>
+                    </div>
+                    <div class="chose-item">
+                        <div class="chose-item-list">
+                            <img src="https://setsail.qodeinteractive.com/wp-content/uploads/2018/10/destinations-featured-img-9-1.jpg" width="313" height="313" alt="">
+                            <h3>France</h3>
+                            <div class="chose-item-list-overlay"></div>
+                        </div>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="chose-item">
+                        <div class="chose-item-list">
+                            <img src="https://setsail.qodeinteractive.com/wp-content/uploads/2018/10/destinations-featured-img-10-1.jpg" width="313" height="313" alt="">
+                            <h3>Switgerland</h3>
+                            <div class="chose-item-list-overlay"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+          <div class="footer-container">
+            <div class="footer-column">
+                <a href="index.html" class="footer-logo">
+                    <img src="./image/logo.png" width="263" alt="">
+                </a>
+                <p class="footer-desc">Lorem ipsum dolor sit ametco nsec te tuer adipiscing elitae</p>
+                <ul class="footer-contact">
+                    <li class="footer-contact-email">
+                        <a href=""><i class="far fa-envelope"></i> setsail.@gmail.com</a>
+                    </li>
+                    <li class="footer-contact-phone">
+                        <a href=""><i class="fas fa-phone"></i> 0357640009</a>
+                    </li>
+                    <li class="footer-contact-location">
+                        <a href=""><i class="fas fa-map-marker-alt"></i> Broadway & Morris St, New York</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-column">
+              <h3 class="footer-heading">Our Recent Posts</h3>
+              <ul class="footer-links">
+                <li class="footer-item">
+                  <a href="#" class="footer-link gray ">Visit Thailand, Bali And China</a>
+                </li>
+                <li class="footer-item">
+                  <a href="#" class="footer-link light">September 7, 2016</a>
+                </li>
+                <li class="footer-item">
+                  <a href="#" class="footer-link gray">The Sound Of Our Jungle</a>
+                </li>
+                <li class="footer-item">
+                  <a href="#" class="footer-link light">September 7, 2016</a>
+                </li>
+                <li class="footer-item">
+                  <a href="#" class="footer-link gray">New Year, New Resolutions!</a>
+                </li>
+                <li class="footer-item">
+                    <a href="#" class="footer-link light">September 7, 2016</a>
+                  </li>
+              </ul>
+            </div>
+            <div class="footer-column">
+              <h3 class="footer-heading">Subscribe to our Newsletter</h3>
+              <p class="gray">Etiam rhoncus. Maecenas temp us, tellus eget condimentum rho</p>
+              <div class="footer-inpput-wrapper-user">
+                <button type=""><i class="far fa-user"></i></button>
+                <input type="text" name="" id="" placeholder="Name">
+              </div>
+
+              <div class="footer-inpput-wrapper-email">
+                <button type=""><i class="far fa-envelope"></i></button>
+                <input type="text" name="" id="" placeholder="Email">
+              </div>
+              <button class="btn-submit">SUBSCRIBE</button>
+            </div>
+            <div class="footer-column">
+              <h3 class="footer-heading">Our Instagram</h3>
+              <p class="gray">Aliquam lorem ante, dapibus inviver raqui feugiat a, tellus. Phasellus null</p>
+            </div>
+          </div>
+          <div class="footer-bottom">
+              <p class="gray">Powered by @ <span class="light">Qode Interactive 2018</span></p>
+          </div>
+      </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        loop: true,
+        autoplay: true,
+        duration: 700,
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+    });
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init(); 
+   </script>
+    <script src="./js/main.js"></script>
+</body>
+</html>

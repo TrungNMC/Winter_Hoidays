@@ -1,0 +1,40 @@
+.trynow {
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 120px;
+    &-title {
+        font-size: 33px;
+        line-height: 33px;
+        padding-bottom: 5px;
+        font-family: 'Satisfy', cursive;
+        color: $primary-color;
+        font-weight: 400;
+    }
+
+    &-content {
+        font-size: 65px;
+        line-height: 65px;
+        padding-bottom: 50px;
+    }
+
+    &-desc {
+        padding: 20px 178px;
+        font-size: 15px;
+        line-height: 1.714285714285714em;
+        font-weight: 500;
+        color: #505050;
+    }
+}
+
+.btn-trynow {
+    padding: 18px 66px;
+    color: #fff;
+    background-color: #3fd0d4;
+    border: none;
+    font-size: 13px;
+    line-height: 1.692307692307692em;
+    font-weight: 600;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    outline: 0;
+}

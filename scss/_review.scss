@@ -1,0 +1,90 @@
+.review {
+    background-image: url(https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/skiing-parallax-1.jpg);
+    background-attachment: fixed;
+    &-title {
+        text-align: center;
+        padding: 108px 0 10px;
+        font-size: 65px;
+        line-height: 65px;
+        color: #fff;
+    }
+    &-content {
+        color: #fff;
+        text-align: center;
+        font-size: 17px;
+        line-height: 28px;
+        padding: 0 412px 30px;
+    }
+    &-list {
+        padding-bottom: 100px;
+    }
+    &-item {
+        padding: 40px;
+        margin: 0 20px;
+        width: 425px;
+        max-height: 230px;
+        background-color: #fff;
+        border-radius: 6px;
+
+        &-wrapper {
+            display:flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 25px;
+        }
+        &-name {
+            font-size: 22px;
+            line-height: 1.272727272727273em;
+            font-weight: 600;
+            letter-spacing: -.05em;
+        }
+
+        &-rate {
+            color: $primary-color;
+            padding: 10px 0;
+        }
+
+        &-desc {
+            font-size: 15px;
+            color: $text-color;
+            padding-bottom: 15px;
+        }
+
+        &-auth {
+            font-size: 14px;
+            line-height: 1.428571428571429em;
+            font-weight: 600;
+        }
+    }
+}
+
+// Slick
+.review button.slick-prev.slick-arrow,
+.review button.slick-next.slick-arrow
+ {
+    display: none !important;
+}
+
+.review .slick-dots {
+    padding-top: 30px;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0 15px;
+    button {
+        font-size: 0;
+        border: 0;
+        width: 12px;
+        height: 12px;
+        border-radius: 100rem;
+        transition: all 0.2s linear;
+        background-color: #3fd0d4;
+        opacity: 0.5;
+    }
+    .slick-active button{
+        background-color: #3fd0d4;
+        opacity: 1;
+    }
+
+}
