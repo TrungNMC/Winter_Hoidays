@@ -23,6 +23,7 @@
         padding: 0 280px 70px;
     }
     &-items {
+        cursor: pointer;
         padding: 0 68px;
         display: grid;
         grid-template-columns: repeat(4, 1fr);

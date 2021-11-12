@@ -1,6 +1,7 @@
 .user {
     padding-top: 150px;
     &-image {
+        cursor: pointer;
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         position: relative;

@@ -37,6 +37,11 @@
             line-height: 1.272727272727273em;
             font-weight: 600;
             letter-spacing: -.05em;
+            cursor: pointer;
+            transition: all 0.5s ease;
+            &:hover {
+                color: $primary-color;
+            }
         }
 
         &-rate {
