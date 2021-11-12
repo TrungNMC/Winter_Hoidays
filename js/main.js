@@ -193,10 +193,6 @@ $(document).ready(function() {
   Setup();
 });
 
-
-
-// Vương code nè nha m
-
 // lây class tất cả thẻ input
 const nodeList = document.querySelectorAll(".hiddenClick")
 // chuyển nodelist thành array
